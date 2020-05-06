@@ -1,19 +1,25 @@
 ### Шаг 1. Подготовка среды.
 -  Скачиваем необходимые дистрибутивы программ:
 
+---
+
 Для Debian-подобных систем:
 ```
-Debians-arch: # sudo apt update && sudo apt install maven && sudo apt install openjdk-8-jdk
+# sudo apt update && sudo apt install maven && sudo apt install openjdk-8-jdk
 ```
 - Устанавливаем веб-сервер Tomcat:
 
 [Установка Tomcat](https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804-ru)
 
-Для RedHat-подобных систем
+---
+
+Для RedHat-подобных систем:
 ```        
 # sudo yum update && sudo yum install maven && sudo yum java-1.8.0-openjdk-devel
 ```
 [Установка Tomcat](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-centos-7)
+
+---
 
 ### Шаг 2. Билд и деплой проекта.
 - Скачиваем проект с репозитория GitLab:
