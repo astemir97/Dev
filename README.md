@@ -6,6 +6,7 @@
 Debians-arch: # sudo apt update && sudo apt install maven && sudo apt install openjdk-8-jdk
 ```
 - Устанавливаем веб-сервер Tomcat:
+
 [Установка Tomcat](https://www.digitalocean.com/community/tutorials/install-tomcat-9-ubuntu-1804-ru)
 
 Для RedHat-подобных систем
