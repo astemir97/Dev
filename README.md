@@ -7,7 +7,7 @@
 
 Для Debian-подобных систем:
 ```
-# sudo apt update && sudo apt install maven && sudo apt install openjdk-8-jdk
+# sudo apt update && sudo apt install maven -y && sudo apt install openjdk-8-jdk -y 
 ```
 - Устанавливаем веб-сервер Tomcat:
 
@@ -17,7 +17,7 @@
 
 Для RedHat-подобных систем:
 ```        
-# sudo yum update && sudo yum install maven && sudo yum java-1.8.0-openjdk-devel
+# sudo yum update && sudo yum install maven -y && sudo yum java-1.8.0-openjdk-devel -y 
 ```
 [Установка Tomcat](https://www.digitalocean.com/community/tutorials/how-to-install-apache-tomcat-8-on-centos-7)
 
