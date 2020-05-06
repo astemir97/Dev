@@ -46,7 +46,7 @@ sudo systemctl restart tomcat
 ### Шаг 3. Запуск проекта.
 Переходим по адресу:
 ```
-http://localhost:8180
+http://localhost:8080
 ```
 - Заходим в - ManagerApp
 - Внизу раздел - WAR file to deploy
@@ -54,6 +54,6 @@ http://localhost:8180
 - Нажимаем Deploy
 - Наверху, в разделе Applications, должен появиться проект - mortage/, нажимаем на него или переходим по:
 ```
-http://localhost:8180/mortgage/itaforms
+http://localhost:8080/mortgage/itaforms
 ```
 - Вход в админку: admin/admin
